@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="headermain">
+            <img src="assets/images/genLogo.png" alt="Logo" class="logo">
+            <nav class="nav">
+                <button class="hamburger" id="hamburgerBtn">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Empowering Pakistan's Next Generation of Tech Talent</h1>
+            <p>Empower The Future Through Education</p>
+            <a href="#apply-form" class="button">Apply for Internship</a>
+        </section>
+
+        <section class="offerings-section">
+            <h2>Our Offerings</h2>
+
+            <div class="offerings-grid">
+                <div class="card">
+                    <h3>Virtual Internships 💻</h3>
+                    <p>Gain real-world, remote experience by working on hands-on tech projects designed to build
+                        your professional portfolio.</p>
+                </div>
+                <div class="card">
+                    <h3>Mentorship 🤝</h3>
+                    <p>Get guided step-by-step by experienced industry professionals dedicated to helping you
+                        navigate your learning journey.</p>
+                </div>
+                <div class="card">
+                    <h3>Certifications 📜</h3>
+                    <p>Earn verified, industry-recognized certificates that prove your skills and make your resume
+                        stand out to top employers.</p>
+                </div>
+                <div class="card">
+                    <h3>Hackathons & Competitions 🏆</h3>
+                    <p>Put your coding skills to the test, collaborate with peers, and solve exciting real-world
+                        engineering challenges.</p>
+                </div>
+                <div class="card">
+                    <h3>Webinars & Workshops ⚒</h3>
+                    <p>Join interactive live learning sessions to master cutting-edge tech tools and stay updated
+                        on industry trends.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="apply-section" id="apply-form">
+            <h2>Apply for Internship</h2>
+            <form class="apply-form" id="applicationForm" novalidate>
+
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <span class="error-message" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone">
+                    <span class="error-message" id="phoneError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="domain">Domain:</label>
+                    <select id="domain" name="domain">
+                        <option value="">--Please choose an option--</option>
+                        <option value="web-development">Web Dev</option>
+                        <option value="graphic-design">Graphic Design</option>
+                        <option value="ai-tools-prompt-engineering">AI Tools & Prompt Engineering</option>
+                        <option value="data-science">Data Science</option>
+                        <option value="video-editing">Video Editing</option>
+                    </select>
+                    <span class="error-message" id="domainError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="university">University:</label>
+                    <input type="text" id="university" name="university">
+                    <span class="error-message" id="universityError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="short-statement">Short Statement:</label>
+                    <textarea id="short-statement" name="short-statement" rows="4" required></textarea>
+                    <span class="error-message" id="statementError"></span>
+                </div>
+
+                <button type="submit" class="button">Submit Application</button>
+            </form>
+
+            <div id="thank-you-message" class="hidden">Thank you for your application!</div>
+
+            <div class="submissions-container">
+                <h3>My Submissions</h3>
+
+                <ul id="submissionsList"></ul>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <ul>
+                <li><a href="https://facebook.com" target="_blank">
+                        <img src="assets/icons/facebooklogo.png" alt="Facebook"></a></li>
+                <li><a href="https://instagram.com" target="_blank">
+                        <img src="assets/icons/instagramlogo.png" alt="Instagram"></a></li>
+                <li><a href="https://twitter.com" target="_blank">
+                        <img src="assets/icons/twitterlogo.png" alt="Twitter"></a></li>
+            </ul>
+            <p>&copy; 2026 NextGenLearners. All rights reserved.</p>
+        </footer>
+
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "domain": "Web Dev",
+        "description": "Learn modern frontend development, custom DOM manipulation, and framework usage.",
+        "duration": "4 Weeks",
+        "skills": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Bootstrap"
+        ],
+        "applyLink": "index.html"
+    },
+    {
+        "id": 2,
+        "domain": "Graphic Design",
+        "description": "Master visual design principles, vector design, branding, and dynamic UI mockup creation.",
+        "duration": "4 Weeks",
+        "skills": [
+            "Photoshop",
+            "Illustrator",
+            "Figma",
+            "UI/UX"
+        ],
+        "applyLink": "index.html"
+    },
+    {
+        "id": 3,
+        "domain": "AI Tools & Prompt Engineering",
+        "description": "Explore AI workflows, LLM prompt techniques, automation systems, and API integrations.",
+        "duration": "4 Weeks",
+        "skills": [
+            "Prompting",
+            "ChatGPT API",
+            "Automation",
+            "Python"
+        ],
+        "applyLink": "index.html"
+    },
+    {
+        "id": 4,
+        "domain": "Data Science",
+        "description": "Analyze complex datasets, extract actionable business metrics, and implement statistical models.",
+        "duration": "4 Weeks",
+        "skills": [
+            "Python",
+            "Pandas",
+            "Data Analytics",
+            "SQL"
+        ],
+        "applyLink": "index.html"
+    },
+    {
+        "id": 5,
+        "domain": "Video Editing",
+        "description": "Create engaging social media clips, promotional videos, and dynamic visual story sequences.",
+        "duration": "4 Weeks",
+        "skills": [
+            "Premiere Pro",
+            "After Effects",
+            "Storyboarding"
+        ],
+        "applyLink": "index.html"
+    }
+]
