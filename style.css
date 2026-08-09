@@ -6,6 +6,18 @@ body {
     color: #fff;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+/*/button*/
+.button {
+    text-decoration: none;
+    background-color: #10b981;
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: rgb(252, 244, 244);
+    border: none;
+}
 
 
 /* navhead */
@@ -276,6 +288,25 @@ textarea.invalid {
 .search-bar:focus::placeholder{
     color:#b8b8b8;
 }
+
+.custom-input::placeholder {
+    color: #ffffff !important;
+    opacity: 0.7; 
+}
+
+.login-form {
+    background-color: #0d0f12;
+    padding: 40px 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 10px;
+}
+
 
 /* mediaqueries*/
 @media(max-width:768px) {
