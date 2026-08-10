@@ -219,5 +219,3 @@ if (selectDomain) {
         }
     }
 }
-
-console.log("Reached the autofill code");
