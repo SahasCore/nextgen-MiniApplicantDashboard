@@ -334,9 +334,7 @@ textarea.invalid {
 
 
 /*DASHBOAAARDDDDDDDDDD*/
-/* =========================
-   Dashboard
-========================= */
+
 
 .dashboard-container {
     width: 90%;
@@ -345,7 +343,7 @@ textarea.invalid {
     padding: 40px 0;
 }
 
-/* Header */
+/* header */
 
 .dashboard-header {
     display: flex;
@@ -375,7 +373,7 @@ textarea.invalid {
     color: #aaa;
 }
 
-/* Applications section */
+/* Applicationssection */
 
 .applications-section {
     padding: 30px;
@@ -389,7 +387,7 @@ textarea.invalid {
     margin-bottom: 25px;
 }
 
-/* Application cards */
+/* Applicationcards */
 
 #applicationsList {
     display: grid;
@@ -418,7 +416,7 @@ textarea.invalid {
     color: white;
 }
 
-/* Empty state */
+/* Emptystate */
 
 .no-applications {
     padding: 25px;
@@ -428,13 +426,13 @@ textarea.invalid {
     border-radius: 10px;
 }
 
-/* Logout button */
+/* Logouttn */
 
 #logoutBtn {
     flex-shrink: 0;
 }
 
-/* Mobile */
+/* queries */
 
 @media (max-width: 600px) {
 
@@ -460,4 +458,93 @@ textarea.invalid {
     .applications-section {
         padding: 20px;
     }
+}
+
+
+/*statuskistyling*/
+.application-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.application-header h3 {
+    margin: 0;
+}
+
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #111;
+}
+
+.status-review {
+    background-color: #0dcaf0;
+    color: #111;
+}
+
+.status-accepted {
+    background-color: #198754;
+    color: white;
+}
+
+.status-rejected {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+/*trackerstyleeee*/
+.progress-tracker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.progress-step {
+    text-align: center;
+    color: #777;
+}
+
+.progress-step span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #777;
+}
+
+.progress-step p {
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.progress-step.active {
+    color: #12c98b;
+}
+
+.progress-step.active span {
+    border-color: #12c98b;
+    background-color: #12c98b;
+    color: #111;
+}
+
+.progress-line {
+    width: 100px;
+    height: 2px;
+    background-color: #777;
+    margin: 0 10px;
 }
