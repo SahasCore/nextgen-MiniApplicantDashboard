@@ -168,7 +168,7 @@ form.addEventListener('submit', function (e) {
     const isFormValid = isNameValid && isEmailValid && isPhoneValid &&
         isDomainValid && isUniversityValid &&
         isStatementValid;
-
+    
     //submission
     if (isFormValid) {
         const submission = {
@@ -178,6 +178,10 @@ form.addEventListener('submit', function (e) {
             domain: document.getElementById('domain').value,
             university: document.getElementById('university').value.trim(),
             statement: document.getElementById('short-statement').value.trim(),
+          
+            status: "pending",
+            date: new Date().toLocaleDateString()
+
         };
 
         const submissions = JSON.parse(localStorage.getItem('submissions')) || [];

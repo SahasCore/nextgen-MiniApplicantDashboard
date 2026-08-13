@@ -143,7 +143,6 @@ signupForm.addEventListener('submit', (e) => {
 
     localStorage.setItem('currentUser', JSON.stringify(newUser));
 
-
     window.location.href = 'dashboard.html';
 });
 
@@ -163,7 +162,6 @@ function correctPassword() {
     if (!foundUser || foundUser.password !== enteredPassword) {
         passwordError.textContent = 'Invalid email or password.';
         passwordError.classList.add('show');
-        passwordInput.classList.add('invalid');
         return false;
     }
 
@@ -258,3 +256,10 @@ showSignup.addEventListener("click", (e) => {
     loginCard.style.display = "none";
     signupCard.style.display = "block";
 });
+
+const params = new URLSearchParams(window.location.search);
+
+if (params.get("login") === "true") {
+    signupCard.style.display = "none";
+    loginCard.style.display = "block";
+}
