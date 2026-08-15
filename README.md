@@ -4,7 +4,7 @@ A modern, responsive, client-side web application built to help applicants track
 
 ---
 
-## Live Link
+## Live Link:
 https://sahascore.github.io/nextgen-MiniApplicantDashboard/
 
 ##  Features
@@ -32,9 +32,9 @@ https://sahascore.github.io/nextgen-MiniApplicantDashboard/
 ```text
 nextgen-MiniApplicantDashboard/
 │
-├── index.html          # Application Submission Form / Landing Page 📝
-├── login.html          # Authentication (Sign In & Sign Up) Page 🔑
-├── dashboard.html      # User Dashboard for viewing submitted applications 📊
-├── style.css           # Custom Dark Theme & UI Layout Styles 🎨
-├── script.js          # Authentication logic & Form Validation ⚡
-└── dashboard.js       # Dynamic Dashboard rendering & card logic 🖥️
+├── index.html          # Application Submission Form / Landing Page 
+├── login.html          # Authentication (Sign In & Sign Up) Page 
+├── dashboard.html      # User Dashboard for viewing submitted applications 
+├── style.css           # Custom Dark Theme & UI Layout Styles 
+├── script.js          # Authentication logic & Form Validation 
+└── dashboard.js       # Dynamic Dashboard rendering & card logic 
