@@ -4,6 +4,9 @@ A modern, responsive, client-side web application built to help applicants track
 
 ---
 
+## Live Link
+https://sahascore.github.io/nextgen-MiniApplicantDashboard/
+
 ##  Features
 
 - Complete client-side sign-up and login flow with input validation and session persistence via `localStorage`.
